@@ -1,0 +1,19 @@
+.hidden ~ ul {
+  display: none;
+}
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+}
+textarea {
+  display: block;
+  width: 100%;
+  resize: vertical;
+  margin-bottom: 20px;
+}
+.json-viewer {
+  border: 1px solid black;
+  padding: 15px;
+  margin-top: 20px;
+}

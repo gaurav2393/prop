@@ -1,0 +1,11 @@
+.hide {
+    display: none;
+}
+
+.expand::before {
+    content: "+";
+}
+
+.expanded::before {
+    content: "-";
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JSON VIEWER</title>
+	<link rel="stylesheet" type="text/css" href="src/css/style.css">
+</head>
+<body>
+	<div>
+		<h1>Enter JSON</h1>
+		<textarea id="inputJson" rows="4" cols="50"></textarea>
+		<input type="button"  value="GO" id="createJsonView">
+	</div>
+	<div id="jsonViewer" class="json-viewer">
+
+	</div>
+	<script type="text/javascript">
+		// since not using es6 modules
+		// using this script in html,
+		// to make APP availabe to all js files
+		var APP = window.APP || {};
+	</script>
+	<script type="text/javascript" src="src/js/jsonViewer.js"></script>
+	<script type="text/javascript" src="src/js/main.js"></script>
+</body>
+</html>
